@@ -6,18 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <style>
+
+             *{
+        padding: 0px;
+        margin: 0px;
+
+    }
+    #header{
+        margin: auto;
+        width: 700px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul, ol{
+        list-style: none;
+    }
+    .nav li a:hover{
+        background-color: #434343;
+    }
+    .nav li a{
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding:10px 15px;
+        display: block;
+    }
+    .nav>li{
+     float: left;
+
+    }
+    .nav li ul{
+        display:;
+        position:absolute;
+    }
+
             .contenedor{
-                background-color: white;
+                background-color:white;
             }
             body{
-                background: linear-gradient(to right, #0265d6, #00dddd);
+                background: linear-gradient(to right, #fff563, #fff09c);
                 color: #ffffff;
                 font-family: Arial, Helvetica, sans-serif;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
-                height: 500vh;
+                height: 350vh;
                 margin: 20;
             }
             h1{
@@ -37,25 +70,31 @@
         </style>
     </head>
     <body>
+        <div class="contendor" style="background-color: #e6bb00;">
+            <br>
+          <h1 >QUIENES SOMOS</h1>
+        <br>
+        </div>
         <audio autoplay loop>
+            <br>
             <source src="electro_swing.mp3" type="audio/mpeg">
             tu navegador no es compatible con el audio de HTML5
         </audio>
-        <h1>BIENVENIDO A</h1>
-        <h7 style="font-size: 2rem">HOMEWORK FREE</h7>
+        <br>
         <div class="contenedor">
-            <center>
-        <P1 style="color: black">Homework free es una empresa creada para la ayuda del estudiante</P1>
+        <h1></h1>
         <br>
-        <p2 style="color: black">buscando aligerar la carga academica de estudiantes de bachillerato y universidad</p2>
-        <br>
-        <p3 style="color: black"> homework free ofrece servicios de impresion de archivos de word, armazon de presentaciones</p3>
-        <br>
-        <p4 style="color: black">engrapado y folder con fastener</p4>
-        </center>
-        <br>
-        <br>
-        <br>
+         <div id="header">
+                <ul class="nav">
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="dondeestamos.html">donde estamos</a></li>
+                    <li><a href="misionyvision.html">mision y vision</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+            </div>
+            <br>
+            <h2></h2>
+            <br>
+            <br>
         <center>
         <p5 style="color: black"> Siendo un grupo pequeño buscamos ofrecerte el mejor servicio</p5>
         <p6 style="color: black">nuestro personal consta de:</p6>
